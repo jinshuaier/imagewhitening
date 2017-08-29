@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		B95F08F11F559A9F00EBBAD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95F08F01F559A9F00EBBAD3 /* main.m */; };
 		B95F08F41F559A9F00EBBAD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95F08F31F559A9F00EBBAD3 /* AppDelegate.m */; };
-		B95F08F71F559A9F00EBBAD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95F08F61F559A9F00EBBAD3 /* ViewController.m */; };
+		B95F08F71F559A9F00EBBAD3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B95F08F61F559A9F00EBBAD3 /* ViewController.mm */; };
 		B95F08FA1F559A9F00EBBAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95F08F81F559A9F00EBBAD3 /* Main.storyboard */; };
 		B95F08FC1F559A9F00EBBAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95F08FB1F559A9F00EBBAD3 /* Assets.xcassets */; };
 		B95F08FF1F559A9F00EBBAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95F08FD1F559A9F00EBBAD3 /* LaunchScreen.storyboard */; };
 		B95F090A1F559A9F00EBBAD3 /* ImageSkinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95F09091F559A9F00EBBAD3 /* ImageSkinTests.m */; };
 		B95F09151F559A9F00EBBAD3 /* ImageSkinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95F09141F559A9F00EBBAD3 /* ImageSkinUITests.m */; };
+		B95F09231F559AAB00EBBAD3 /* 头像.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F09221F559AAB00EBBAD3 /* 头像.png */; };
+		B95F09271F559AC700EBBAD3 /* ImageUnits.mm in Sources */ = {isa = PBXBuildFile; fileRef = B95F09261F559AC700EBBAD3 /* ImageUnits.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		B95F08F21F559A9F00EBBAD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B95F08F31F559A9F00EBBAD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B95F08F51F559A9F00EBBAD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B95F08F61F559A9F00EBBAD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B95F08F61F559A9F00EBBAD3 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		B95F08F91F559A9F00EBBAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B95F08FB1F559A9F00EBBAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B95F08FE1F559A9F00EBBAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		B95F09101F559A9F00EBBAD3 /* ImageSkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSkinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95F09141F559A9F00EBBAD3 /* ImageSkinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSkinUITests.m; sourceTree = "<group>"; };
 		B95F09161F559A9F00EBBAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95F09221F559AAB00EBBAD3 /* 头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像.png"; sourceTree = "<group>"; };
+		B95F09241F559ABC00EBBAD3 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B95F09251F559AC300EBBAD3 /* ImageUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUnits.h; sourceTree = "<group>"; };
+		B95F09261F559AC700EBBAD3 /* ImageUnits.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageUnits.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		B95F08E31F559A9F00EBBAD3 = {
 			isa = PBXGroup;
 			children = (
+				B95F09221F559AAB00EBBAD3 /* 头像.png */,
 				B95F08EE1F559A9F00EBBAD3 /* ImageSkin */,
 				B95F09081F559A9F00EBBAD3 /* ImageSkinTests */,
 				B95F09131F559A9F00EBBAD3 /* ImageSkinUITests */,
@@ -104,8 +111,11 @@
 				B95F08F21F559A9F00EBBAD3 /* AppDelegate.h */,
 				B95F08F31F559A9F00EBBAD3 /* AppDelegate.m */,
 				B95F08F51F559A9F00EBBAD3 /* ViewController.h */,
-				B95F08F61F559A9F00EBBAD3 /* ViewController.m */,
+				B95F08F61F559A9F00EBBAD3 /* ViewController.mm */,
 				B95F08F81F559A9F00EBBAD3 /* Main.storyboard */,
+				B95F09241F559ABC00EBBAD3 /* Utils.h */,
+				B95F09251F559AC300EBBAD3 /* ImageUnits.h */,
+				B95F09261F559AC700EBBAD3 /* ImageUnits.mm */,
 				B95F08FB1F559A9F00EBBAD3 /* Assets.xcassets */,
 				B95F08FD1F559A9F00EBBAD3 /* LaunchScreen.storyboard */,
 				B95F09001F559A9F00EBBAD3 /* Info.plist */,
@@ -246,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95F09231F559AAB00EBBAD3 /* 头像.png in Resources */,
 				B95F08FF1F559A9F00EBBAD3 /* LaunchScreen.storyboard in Resources */,
 				B95F08FC1F559A9F00EBBAD3 /* Assets.xcassets in Resources */,
 				B95F08FA1F559A9F00EBBAD3 /* Main.storyboard in Resources */,
@@ -273,9 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95F08F71F559A9F00EBBAD3 /* ViewController.m in Sources */,
+				B95F08F71F559A9F00EBBAD3 /* ViewController.mm in Sources */,
 				B95F08F41F559A9F00EBBAD3 /* AppDelegate.m in Sources */,
 				B95F08F11F559A9F00EBBAD3 /* main.m in Sources */,
+				B95F09271F559AC700EBBAD3 /* ImageUnits.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
